@@ -1,4 +1,5 @@
 Lab2：多次填充攻击流密码实验报告
+
 本次实验采用多次填充攻击（Many Time Pad）分析方法，核心利用同一密钥加密多段密文的安全漏洞：
 
 1. 密文异或特性：两段同密钥加密的密文异或后，密钥流被消除，仅保留明文异或结果
@@ -17,12 +18,12 @@ Lab2：多次填充攻击流密码实验报告
 
 3. 密钥一致性：多段密文推导的密钥字节无冲突，验证密钥还原准确性
 
-四、解密明文结果
+解密明文结果
 
 目标密文解密后明文：
- When using a stream cipher, never use the key more than once
+The secret message is: When using a stream cipher, never use the key more than once
 
-五、实验总结
+实验总结
 
 1. 掌握了流密码XOR加密原理及多次填充攻击的核心逻辑
 
