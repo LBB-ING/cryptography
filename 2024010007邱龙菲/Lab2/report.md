@@ -43,4 +43,4 @@ C_1 \oplus C_2 = (M_1 \oplus K) \oplus (M_2 \oplus K) = M_1 \oplus M_2
 
 ## 3. 解密得到的明文
 
-运行上述攻击代码后，得到的目标密文明文如下：
+运行上述攻击代码后，得到的目标密文明文如下：The secret message is: when using a stream cipher, never use the key more than once
