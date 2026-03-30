@@ -43,5 +43,5 @@
 
 ## 三、解密得到的明文
 
-经过上述分析，成功恢复密钥流并解密目标密文，得到如下明文： Whtn using a tream cipher, never use the key 
+经过上述分析，成功恢复密钥流并解密目标密文，得到如下明文： when using a stream cipher, never use the key 
 more than once
