@@ -28,6 +28,7 @@ $$C_1 \oplus C_2 = (M_1 \oplus K) \oplus (M_2 \oplus K) = M_1 \oplus M_2$$
   - 选择置信度最高的密文索引，确认该位置明文为空格，计算密钥流：
             $$K[pos] = C_{best}[pos] \oplus 0x20$$
 
+<<<<<<< HEAD
 3. 处理未命中空格的位置：若某位置无法通过空格假设确定，则假设明文为最高频英文字母 'e'（0x65），计算密钥流：
         $$K[pos] = target\_cipher[pos] \oplus 0x65$$
 
@@ -39,3 +40,10 @@ $$C_1 \oplus C_2 = (M_1 \oplus K) \oplus (M_2 \oplus K) = M_1 \oplus M_2$$
 3. 解密得到的明文
 
 运行上述攻击代码后，得到的目标密文明文如下：The secret message is: when using a stream cipher, never use the key more than once
+=======
+<<<<<<< HEAD
+运行上述攻击代码后，得到的目标密文明文如下：The secret message is: when using a stream cipher, never use the key more than once
+=======
+运行上述攻击代码后，得到的目标密文明文如下：
+>>>>>>> 71db80bffc819739c6defb5de66fbcda5793a840
+>>>>>>> 5707c215ce72009da19a1e21ed8106eae3028ced
